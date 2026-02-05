@@ -47,9 +47,6 @@ Can view how page looks on different device screens, and even shows/integrates w
 - Auto-fill while coding - sometimes helpful, often annoying
 - Suggestion dropdown - helpful to see options
 
-
-<!-- ====== WIDGETS & BUILDING AN APP ========= -->
-
 ## Widgets & Building an App
 
 ### Widget Basics
@@ -91,13 +88,14 @@ body
 children
 etc.
 
-<!-- DEMO - BUILDING A FORM -->
-<!-- DATABASE INFO -->
+## Demo - Building a form
 
-<!-- RESOURCES LIST -->
-<!-- How did we learn? -->
-<!-- Expected: use documentation
+### Working with a database in Flutter
+
+## Resources
+How did we learn?
+Expected: use documentation
 Exceeding: use more than one source of info plus evaluate documentation usability plus provide references eg links for others to follow
- -->
+
 
 
