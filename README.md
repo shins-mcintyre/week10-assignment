@@ -42,6 +42,8 @@ This feature of Dart allows for an application to be previewed in milliseconds
 #### Screen view
 Can view how page looks on different device screens, and even shows/integrates with native functionality on those devices (e.g. keyboard on phone)
 
+**INSERT IMAGE HERE IF WE GET IT WORKING**
+
 #### Coding quirks 
 - Errors when typing - get in the way of viewing code!
 - Auto-fill while coding - sometimes helpful, often annoying
@@ -93,7 +95,19 @@ void main() {
 }
 ```
 This will show an empty (white) screen → shows it is working
+
 #### void
+In Dart, void is a special keyword that is used in the template (```void main()```) to signify that the function following it will not return a value, e.g.:
+```
+void myFunction() {
+  print('This function does not return a value.');
+}
+```
+It is used to indicate that the function instead will perform an action, i.e. printing to the console, updating a UI, or initializing an app, rather than returning data.
+
+#### main
+Every Dart app starts with the function void main(). The main function invokes another function called runApp, which takes in one widget (the root widget) and displays it as a Flutter app
+
 #### @override
 * Flutter is object oriented, objects have methods.
 * When you fulfil a method, it is best practice to use @‌override: When you provide your own implementation of a method that is already defined in a parent class, it is best practice to use @override.
@@ -114,7 +128,8 @@ super.dispose(); } //allows Flutter to carry out normal dispose actions, as well
 ```
 * The object myController holds resources (state that remembers the text field’s content and listeners for text changes). Without calling dispose() method on this object, it will never stop holding the resources. Even if the widget was removed from the page (say, after submitting a form), the resources would remain which is a waste of memory etc and could make your site/app slow. (memory leak)
 
-#### scaffold
+#### Scaffold()
+Scaffold is a layout component that acts as a container for organising UI elements (such as app bars, navigation, and main 
 #### body
 #### children
 etc.
@@ -236,6 +251,13 @@ I was able to find a step-by-step tutorial on how to link them, the etiquette an
 It was laid out in an easy-to-read format, clear steps were marked and explained thoroughly. I feel it would be useful for both beginners and advanced users.
 There were two main pages that I used to write my own explanations, this was the Quickstart and the Row Level Security page. Similar to the Flutter docs, I didn't find myself
 needing to go to other sources for a more thorough explanation, they were both very helpful for these usecases.
+
+References:
+* [void](https://medium.com/flutter-community/the-curious-case-of-void-in-dart-f0535705e529)
+* [Scaffold()]()
+
+Learning:
+* [Code Academy](https://www.codecademy.com/learn/intro-to-flutter)
 
 Exceeding: use more than one source of info plus evaluate documentation usability plus provide references eg links for others to follow
 
