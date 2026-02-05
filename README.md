@@ -80,7 +80,7 @@ Types of layout widgets include:
 Container widgets wrap a container box around a child widget - they are useful for adding borders, colours and spacing to the layout of the app
 
 ### Basics to building a Flutter app
-- Overview on layout:
+#### Overview on layout:
 ```
 import 'package:flutter/material.dart';
 
@@ -93,8 +93,8 @@ void main() {
 }
 ```
 This will show an empty (white) screen → shows it is working
-- void
-- @override
+#### void
+#### @override
 * Flutter is object oriented, objects have methods.
 * When you fulfil a method, it is best practice to use @‌override: When you provide your own implementation of a method that is already defined in a parent class, it is best practice to use @override.
 *Example:
@@ -105,7 +105,7 @@ class MyCustomForm extends StatefulWidget { const MyCustomForm({super.key});
 ```
 * Flutter is object-oriented, and classes define methods. MyCustomForm extends StatefulWidget, which means it inherits methods from StatefulWidget. (StatefulWidget is the superclass and MyCustomForm is the subclass because it extends StatefulWidget) StatefulWidget already defines a createState() method. When we create MyCustomForm, we override createState() to provide our own implementation that returns _MyCustomFormState. We use @override to explicitly indicate that this method already exists on the parent class and that we are intentionally replacing its implementation.
 
-* dispose
+#### dispose
 ```
 void dispose() {
 // Clean up the controller.
@@ -113,14 +113,14 @@ formController.dispose();
 super.dispose(); } //allows Flutter to carry out normal dispose actions, as well as our specific dispose.
 ```
 * The object myController holds resources (state that remembers the text field’s content and listeners for text changes). Without calling dispose() method on this object, it will never stop holding the resources. Even if the widget was removed from the page (say, after submitting a form), the resources would remain which is a waste of memory etc and could make your site/app slow. (memory leak)
-  
-- scaffold
-- body
-- children
+
+#### scaffold
+#### body
+#### children
 etc.
 
 ## Demo - Building a form
-- form widgets
+### form widgets
 have properties:
 * key (identifies the form) - used to interact with the form (validate/reset/save state)
 * child (contains form fields) - usually column or list
@@ -143,7 +143,7 @@ Linking a database with Flutter is quite different than with previous languages 
 Because of this, it is pretty much mandatory that you require row level security (RLS) in your database to protect it and choose what a user is able to do. 
 RLS tells supabase what anon users can perform what CRUD methods and what auth users can perform what CRUD methods
 
-- basic syntax of RLS policy:
+#### basic syntax of RLS policy:
 ```
 CREATE POLICY policy_name ON table_name
 FOR operation
@@ -156,6 +156,7 @@ on public.instruments
 for select to anon
 using (true);
 ```
+#### Connecting Supabase database to Flutter
 Supabase has some easy to follow, well formatted docs on connecting a table with Flutter specifically. I followed them to write the following:
 - Create tables and add this line: alter table instruments enable row level security;
 - Complete your RLS (see RLS card)
