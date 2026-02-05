@@ -73,10 +73,10 @@ You can create an icon using [Google's list of icons](https://fonts.google.com/i
 Layout widgets are used to control how child (or children) widgets are laid out visually - single-child layout widgets organise one widget, while multi-child layout widgets organise several
 
 Types of layout widgets include:
-- Center
-- Align
-- Row
-- Column
+* Center
+* Align
+* Row
+* Column
 
 #### Containers
 Container widgets wrap a container box around a child widget - they are useful for adding borders, colours and spacing to the layout of the app
@@ -129,14 +129,26 @@ super.dispose(); } //allows Flutter to carry out normal dispose actions, as well
 * The object myController holds resources (state that remembers the text field’s content and listeners for text changes). Without calling dispose() method on this object, it will never stop holding the resources. Even if the widget was removed from the page (say, after submitting a form), the resources would remain which is a waste of memory etc and could make your site/app slow. (memory leak)
 
 #### Scaffold()
-Scaffold is a layout component that acts as a container for organising UI elements (such as app bars, navigation, and main 
+Scaffold is a layout component that acts as a container for organising UI elements (such as app bars, navigation, and main content). 
+```
+void main(){
+    runApp(
+        const MaterialApp(
+            home: Scaffold()
+            ));
+}```
+By using Scaffold, it ensures the app has a consistent look and feel and adheres to material design guidelines - so you can focus more on building widgets and logic and spend less time of figuringout layouts.
+
 #### body
-#### children
-etc.
+The body holds the primary content within the scaffold, which appears beneath the app bar
+
+#### child & children
+The child property takes a singular widget and is used to apply some effect, constraint or padding directly to it - often to wrap and modify that widget. Examples include Container, Padding and Center.
+The children property is used for widgets that hold a list of several widgets so they can be arranged according to a specific layout. Examples include Row, Column, and Stack.
 
 ## Demo - Building a form
-### form widgets
-have properties:
+### Form widgets...
+Have properties:
 * key (identifies the form) - used to interact with the form (validate/reset/save state)
 * child (contains form fields) - usually column or list
 * autovalidateMode - enum that specifies when the form should automatically validate its fields
@@ -147,11 +159,14 @@ and have methods:
 * reset() - resets to initial state (clears user-entered data)
 * currentState - returns current FormState
 
-How to build a form:
-* Create basic structure with AppBar and body Scaffold
-* Initialise variables (inside MyFormState)
-* Create MyForm Class
-* Create _submitForm method - check if it's valid and show alert box
+### How to build a form:
+1. Create basic structure with AppBar and body Scaffold
+2. Initialise variables (inside MyFormState)
+3. Create MyForm Class
+4. Create _submitForm method - check if it's valid and show alert box
+
+#### Resources and references to help with building a form:
+
 
 ### Working with a database in Flutter
 Linking a database with Flutter is quite different than with previous languages we have used. As flutter is entirely client/mobile, there is no secure way to store a service role key, only an anon public key can be used and the database access happens directly in the client.
@@ -254,10 +269,12 @@ needing to go to other sources for a more thorough explanation, they were both v
 
 References:
 * [void](https://medium.com/flutter-community/the-curious-case-of-void-in-dart-f0535705e529)
-* [Scaffold()]()
+* [Scaffold()](https://www.miquido.com/flutter-101/scaffold-in-flutter/#:~:text=In%20Flutter%2C%20Scaffold%20is%20a,and%20the%20main%20content%20area.)
+* [body](https://api.flutter.dev/flutter/material/Scaffold/body.html)
+* [child/children](https://medium.com/@ethan_june/flutter-widget-properties-child-children-1-d5b81375733a)
 
 Learning:
-* [Code Academy](https://www.codecademy.com/learn/intro-to-flutter)
+* [CodeAcademy - Intro to Flutter](https://www.codecademy.com/learn/intro-to-flutter)
 
 Exceeding: use more than one source of info plus evaluate documentation usability plus provide references eg links for others to follow
 
