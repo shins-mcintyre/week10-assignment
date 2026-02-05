@@ -136,7 +136,8 @@ void main(){
         const MaterialApp(
             home: Scaffold()
             ));
-}```
+}
+```
 By using Scaffold, it ensures the app has a consistent look and feel and adheres to material design guidelines - so you can focus more on building widgets and logic and spend less time of figuringout layouts.
 
 #### body
