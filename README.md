@@ -218,6 +218,13 @@ If you wanted to add more to this page, instead of just viewing data from a tabl
 How did we learn?
 Expected: use documentation
 
+We used multiple sources of documentation for our learning and creation of a form, we have included all links below.
+When creating the form I initially tried using some YouTube tutorials but found that they consistently missed out key information. Many assumed a certain level of understanding Dart/Flutter, 
+this was unhelpful for my case as it meant I had to try to find other tutorials/documentation to fill in the gaps that I felt were left. They often did not explain why they were adding certain classes/methods etc... so again,
+although they were tutorials they were not very in-depth. I decided to move on to text-based documentation. After looking at multiple resources, I thought often did not have explanations- similar to the YouTube videos. 
+Lots of the sites had "copy this code" without explaining it, this was not what I required from the tutorials, we were looking to understand the core concepts.
+Eventually, I found and followed the official Flutter docs tutorial. 
+Overall, I found the documentation to be very clear and concise, they used consistent naming conventions within the code examples and explained it in depth.
 I felt other documentation tutorials were lacking, often relied to heavily on the coded examples without explaining the steps. 
 As a beginner, the official docs were also very accessible. They had clear sections with large headers and any code was formatted appropriately with good colour contrast.
 The docs also linked to other pages within the site for easy user flow, enabling me to expand my learning without leaving the site.
