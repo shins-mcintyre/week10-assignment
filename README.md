@@ -268,16 +268,25 @@ It was laid out in an easy-to-read format, clear steps were marked and explained
 There were two main pages that I used to write my own explanations, this was the Quickstart and the Row Level Security page. Similar to the Flutter docs, I didn't find myself
 needing to go to other sources for a more thorough explanation, they were both very helpful for these usecases.
 
+Resources for learning:
+Install Flutter docs: https://docs.flutter.dev/learn/pathway/quick-install
+* [CodeAcademy Intro to Flutter](https://www.codecademy.com/enrolled/courses/intro-to-flutter)
+* [Form tutorial](https://www.youtube.com/watch?v=IJ4_QK_E_xI)
+* [Form tutorial](https://www.youtube.com/watch?v=HQ_ytw58tC4)
+* [Form tutorial](https://www.geeksforgeeks.org/flutter/flutter-build-a-form/)
+* [Form tutorial](https://docs.flutter.dev/cookbook/forms/validation)
+* [Supabase set-up](https://supabase.com/docs/guides/database/postgres/row-level-security)
+* [Supabase set-up](https://supabase.com/docs/guides/getting-started/quickstarts/flutter)
+* [Supabase set-up](https://supabase.com/docs/guides/getting-started/tutorials/with-flutter)
+
 References:
 * [void](https://medium.com/flutter-community/the-curious-case-of-void-in-dart-f0535705e529)
 * [Scaffold()](https://www.miquido.com/flutter-101/scaffold-in-flutter/#:~:text=In%20Flutter%2C%20Scaffold%20is%20a,and%20the%20main%20content%20area.)
 * [body](https://api.flutter.dev/flutter/material/Scaffold/body.html)
 * [child/children](https://medium.com/@ethan_june/flutter-widget-properties-child-children-1-d5b81375733a)
-
-Learning:
-* [CodeAcademy - Intro to Flutter](https://www.codecademy.com/learn/intro-to-flutter)
-
-Exceeding: use more than one source of info plus evaluate documentation usability plus provide references eg links for others to follow
+* [Dart and Flutter docs](https://pub.dev/)
+* [Flutter dev docs](https://api.flutter.dev/index.html)
+* [Codeacademy Flutter Cheatsheets](https://www.codecademy.com/learn/intro-to-flutter/modules/intro-to-flutter/cheatsheet)
 
 
 
