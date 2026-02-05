@@ -269,7 +269,7 @@ There were two main pages that I used to write my own explanations, this was the
 needing to go to other sources for a more thorough explanation, they were both very helpful for these usecases.
 
 Resources for learning:
-Install Flutter docs: https://docs.flutter.dev/learn/pathway/quick-install
+* [Install Flutter docs](https://docs.flutter.dev/learn/pathway/quick-install)
 * [CodeAcademy Intro to Flutter](https://www.codecademy.com/enrolled/courses/intro-to-flutter)
 * [Form tutorial](https://www.youtube.com/watch?v=IJ4_QK_E_xI)
 * [Form tutorial](https://www.youtube.com/watch?v=HQ_ytw58tC4)
