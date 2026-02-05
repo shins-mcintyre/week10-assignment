@@ -55,19 +55,19 @@ Can view how page looks on different device screens, and even shows/integrates w
 ### Widget Basics
 
 #### Text & TextStyling
-''' Text(
+``` Text(
     'Hello, world!',
     style: TextStyle(color: Colors.red, fontSize: 24)
   );
-'''
+```
 
 #### Icons
 You can create an icon using [Google's list of icons](https://fonts.google.com/icons)
-'''const myIcon = Icon(
+```const myIcon = Icon(
   Icons.check,
   color: Colors.green,
   size: 100.0,
-);
+);```
 
 #### Layouts
 Layout widgets are used to control how child (or children) widgets are laid out visually - single-child layout widgets organise one widget, while multi-child layout widgets organise several
