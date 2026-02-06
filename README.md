@@ -42,8 +42,6 @@ This feature of Dart allows for an application to be previewed in milliseconds
 #### Screen view
 Can view how page looks on different device screens, and even shows/integrates with native functionality on those devices (e.g. keyboard on phone)
 
-**INSERT IMAGE HERE IF WE GET IT WORKING**
-
 #### Coding quirks 
 - Errors when typing - get in the way of viewing code!
 - Auto-fill while coding - sometimes helpful, often annoying
@@ -246,12 +244,23 @@ class _HomePageState extends State<HomePage> {
 If you wanted to add more to this page, instead of just viewing data from a table you would need to follow usual Flutter convention and place the FutureBuilder() as a child of a column/row or other layout widget, you could then add other widgets to your layout widgets.
 
 ## Resources
-We used multiple sources of documentation for our learning and creation of a form, we have included all links below.
+### Learning the basics
+To get an overall understanding of what Flutter is, we watched some Youtube videos explaining it. [This is one](https://www.youtube.com/watch?v=I9ceqw5Ny-4) we found most informative to start off.
 
+Code Academy's Intro to Flutter Tutorial was a great base to understand the basics of what Flutter is, how to set up and install it, and how the code is structured. It featured some really helpful tutorials that takes you step by step through various concepts of using Dart and Flutter - this active learning was useful for getting used to reading and writing Dart.
+<img width="1909" height="849" alt="Screenshot 2026-02-02 132830" src="https://github.com/user-attachments/assets/3c020f2a-5972-42ec-a087-13f4d466765a" />
+
+### Building a form
+We researched how to build a form independently, as we both wanted to learn how to do this, and by dividing we felt we could come together later and share insights/expand our learning more this way. We therefore used multiple sources of documentation for our learning and creation of a form, we have included all links below.
+
+#### Lara's research:
+##### Youtube
 When creating the form I initially tried using some YouTube tutorials but found that they consistently missed out key information. Many assumed a certain level of understanding Dart/Flutter, 
 this was unhelpful for my case as it meant I had to try to find other tutorials/documentation to fill in the gaps that I felt were left. They often did not explain why they were adding certain classes/methods etc... so again,
 although they were tutorials they were not very in-depth. I decided to move on to text-based documentation. After looking at multiple resources, I thought often did not have explanations- similar to the YouTube videos. 
 Lots of the sites had "copy this code" without explaining it, this was not what I required from the tutorials, we were looking to understand the core concepts.
+
+##### Documentation
 Eventually, I found and followed the official Flutter docs tutorial. 
 Overall, I found the documentation to be very clear and concise, they used consistent naming conventions within the code examples and explained it in depth.
 I felt other documentation tutorials were lacking, often relied to heavily on the coded examples without explaining the steps. 
@@ -260,31 +269,54 @@ The docs also linked to other pages within the site for easy user flow, enabling
 I did find for wider useages of the site, for example looking up a specific method, it was lacking information that I had to go and find in other unofficial sources. 
 On the whole, I found this site to be the most useful for building my form as it was beginner friendly, offered extra resources for more advanced Flutter programmers and had clear user flow.
 
+##### Databases
 We wanted to research how we would link a database in the future so that we could link a form for a more "real world" use case. For this, I found that Supabase has a section specific to Flutter.
 I was able to find a step-by-step tutorial on how to link them, the etiquette and how to query the database. I did not feel I had to find other documentation to support what Supabase covered.
 It was laid out in an easy-to-read format, clear steps were marked and explained thoroughly. I feel it would be useful for both beginners and advanced users.
 There were two main pages that I used to write my own explanations, this was the Quickstart and the Row Level Security page. Similar to the Flutter docs, I didn't find myself
 needing to go to other sources for a more thorough explanation, they were both very helpful for these usecases.
 
-Resources for learning:
+#### Sinéad's research:
+##### Youtube
+##### Articles
+##### Routing multiple pages
+##### Phone screen view
+
+### Set-up and basics
 * [Install Flutter docs](https://docs.flutter.dev/learn/pathway/quick-install)
 * [CodeAcademy Intro to Flutter](https://www.codecademy.com/enrolled/courses/intro-to-flutter)
+* [Dart and Flutter docs](https://pub.dev/)
+* [Flutter dev docs](https://api.flutter.dev/index.html)
+* [Codeacademy Flutter Cheatsheets](https://www.codecademy.com/learn/intro-to-flutter/modules/intro-to-flutter/cheatsheet)
+
+### Creating a form
 * [Form tutorial](https://www.youtube.com/watch?v=IJ4_QK_E_xI)
 * [Form tutorial](https://www.youtube.com/watch?v=HQ_ytw58tC4)
 * [Form tutorial](https://www.geeksforgeeks.org/flutter/flutter-build-a-form/)
 * [Form tutorial](https://docs.flutter.dev/cookbook/forms/validation)
+* [Build a form](https://www.geeksforgeeks.org/flutter/flutter-build-a-form/)
+
+#### Database
 * [Supabase set-up](https://supabase.com/docs/guides/database/postgres/row-level-security)
 * [Supabase set-up](https://supabase.com/docs/guides/getting-started/quickstarts/flutter)
 * [Supabase set-up](https://supabase.com/docs/guides/getting-started/tutorials/with-flutter)
 
-References:
+### Widgets
 * [void](https://medium.com/flutter-community/the-curious-case-of-void-in-dart-f0535705e529)
 * [Scaffold()](https://www.miquido.com/flutter-101/scaffold-in-flutter/#:~:text=In%20Flutter%2C%20Scaffold%20is%20a,and%20the%20main%20content%20area.)
 * [body](https://api.flutter.dev/flutter/material/Scaffold/body.html)
 * [child/children](https://medium.com/@ethan_june/flutter-widget-properties-child-children-1-d5b81375733a)
-* [Dart and Flutter docs](https://pub.dev/)
-* [Flutter dev docs](https://api.flutter.dev/index.html)
-* [Codeacademy Flutter Cheatsheets](https://www.codecademy.com/learn/intro-to-flutter/modules/intro-to-flutter/cheatsheet)
+* [MaterialApp](https://api.flutter.dev/flutter/material/MaterialApp-class.html)
+* [Text](https://api.flutter.dev/flutter/widgets/Text-class.html)
+* [Colors](https://api.flutter.dev/flutter/material/Colors-class.html)
+* [Icons](https://api.flutter.dev/flutter/widgets/Icon-class.html)
+* [Icon Buttons](https://api.flutter.dev/flutter/material/IconButton-class.html)
+* [Layouts](https://docs.flutter.dev/ui/layout)
+
+
+
+
+
 
 
 
