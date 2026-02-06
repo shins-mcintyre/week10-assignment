@@ -246,10 +246,8 @@ class _HomePageState extends State<HomePage> {
 If you wanted to add more to this page, instead of just viewing data from a table you would need to follow usual Flutter convention and place the FutureBuilder() as a child of a column/row or other layout widget, you could then add other widgets to your layout widgets.
 
 ## Resources
-How did we learn?
-Expected: use documentation
-
 We used multiple sources of documentation for our learning and creation of a form, we have included all links below.
+
 When creating the form I initially tried using some YouTube tutorials but found that they consistently missed out key information. Many assumed a certain level of understanding Dart/Flutter, 
 this was unhelpful for my case as it meant I had to try to find other tutorials/documentation to fill in the gaps that I felt were left. They often did not explain why they were adding certain classes/methods etc... so again,
 although they were tutorials they were not very in-depth. I decided to move on to text-based documentation. After looking at multiple resources, I thought often did not have explanations- similar to the YouTube videos. 
