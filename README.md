@@ -278,9 +278,20 @@ needing to go to other sources for a more thorough explanation, they were both v
 
 #### Sinéad's research:
 ##### Youtube
+I too started out with Youtube, with the intention of following along a [step-by-step video series by Net Ninja](https://www.youtube.com/watch?v=2DX0TtM9Hug&list=PL4cUxeGkcC9ighyCUUmoaxz9CZsUz4Iwf) to create a form. Although it seemed like a good tutorial, it was a little bit more complex than what was needed for the scope of this project and so I decided to make something more straightforward
+
 ##### Articles
-##### Routing multiple pages
+I looked through some various articles about form building, and decided to follow the instruction in one particular one on a site called [GeeksforGeeks](https://www.geeksforgeeks.org/flutter/flutter-build-a-form/), as it was a very simple form, the steps were broken down and explained very well, and it also included explanations of what each element is for and a video demo of what it looks like.
+
+As we both created our own forms, we wanted to put these both in one project for the demo. Although it wasn't absolutely necessary, we wanted to see if we could implement navigation so you could move from one form to the other easily. I used the [same website](https://www.geeksforgeeks.org/flutter/flutter-navigate-from-one-screen-to-another/) as before to get a basic understanding of how to do this. I implemented the learnings from that article. However I ran into some trouble when actually going live:
+<img width="1786" height="908" alt="Screenshot 2026-02-05 102418" src="https://github.com/user-attachments/assets/5065b759-8a0e-4830-a11e-245197d5f28d" />
+So in this instance to troubleshoot and understand the errors/how to fix them I used ChatGPT - which advised that the issue was due to the second form not living within a Scaffold() - this was quickly sorted and I got it working
+
 ##### Phone screen view
+One final stretch goal we set ourselves was to try to get the 'phone screen view' working alongside VS code, so that every time we did a hot reload, we could see the app on a mobile device screen, rather than a browser, like so:
+<img width="878" height="522" alt="image" src="https://github.com/user-attachments/assets/ea65b940-f61d-413a-a51e-44491589fc20" />
+
+To do this I watched a Youtube video which was in fact helpful - it explained about plugging in your own phone, changing your phone settings to have it in dev mode, and ran through how to fix multiple reasons VS code may not detect it. I also followed some advice from ChatGPT on what settings to change in Android Studio (which we installed at the beginning of the week but decided not to prioritise). However it turned out my issue was that the Android SDK path was in Windows, while VS Code was in Ubuntu - I either had to change VS Code to Windows or create a bridge - this was a bit overcomplicated for the scope and I was concerned I would mess up my whole setup so I couldn;t complete this stretch goal.
 
 ### References
 #### Set-up and basics
@@ -296,6 +307,9 @@ needing to go to other sources for a more thorough explanation, they were both v
 * [Form tutorial](https://www.geeksforgeeks.org/flutter/flutter-build-a-form/)
 * [Form tutorial](https://docs.flutter.dev/cookbook/forms/validation)
 * [Build a form](https://www.geeksforgeeks.org/flutter/flutter-build-a-form/)
+
+#### Routing/Navigation
+* [Navigating between pages](https://www.geeksforgeeks.org/flutter/flutter-navigate-from-one-screen-to-another/)
 
 #### Database
 * [Supabase set-up](https://supabase.com/docs/guides/database/postgres/row-level-security)
