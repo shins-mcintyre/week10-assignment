@@ -247,7 +247,7 @@ If you wanted to add more to this page, instead of just viewing data from a tabl
 ### Learning the basics
 To get an overall understanding of what Flutter is, we watched some Youtube videos explaining it. [This is one](https://www.youtube.com/watch?v=I9ceqw5Ny-4) we found most informative to start off.
 
-Code Academy's Intro to Flutter Tutorial was a great base to understand the basics of what Flutter is, how to set up and install it, and how the code is structured. It featured some really helpful tutorials that takes you step by step through various concepts of using Dart and Flutter - this active learning was useful for getting used to reading and writing Dart.
+[Code Academy's Intro to Flutter Tutorial](https://www.codecademy.com/enrolled/courses/intro-to-flutter) was a great base to understand the basics of what Flutter is, how to set up and install it, and how the code is structured. It featured some really helpful tutorials that takes you step by step through various concepts of using Dart and Flutter - this active learning was useful for getting used to reading and writing Dart.
 <img width="1909" height="849" alt="Screenshot 2026-02-02 132830" src="https://github.com/user-attachments/assets/3c020f2a-5972-42ec-a087-13f4d466765a" />
 
 ### Building a form
@@ -282,14 +282,15 @@ needing to go to other sources for a more thorough explanation, they were both v
 ##### Routing multiple pages
 ##### Phone screen view
 
-### Set-up and basics
+### References
+#### Set-up and basics
 * [Install Flutter docs](https://docs.flutter.dev/learn/pathway/quick-install)
 * [CodeAcademy Intro to Flutter](https://www.codecademy.com/enrolled/courses/intro-to-flutter)
 * [Dart and Flutter docs](https://pub.dev/)
 * [Flutter dev docs](https://api.flutter.dev/index.html)
 * [Codeacademy Flutter Cheatsheets](https://www.codecademy.com/learn/intro-to-flutter/modules/intro-to-flutter/cheatsheet)
 
-### Creating a form
+#### Creating a form
 * [Form tutorial](https://www.youtube.com/watch?v=IJ4_QK_E_xI)
 * [Form tutorial](https://www.youtube.com/watch?v=HQ_ytw58tC4)
 * [Form tutorial](https://www.geeksforgeeks.org/flutter/flutter-build-a-form/)
@@ -301,7 +302,7 @@ needing to go to other sources for a more thorough explanation, they were both v
 * [Supabase set-up](https://supabase.com/docs/guides/getting-started/quickstarts/flutter)
 * [Supabase set-up](https://supabase.com/docs/guides/getting-started/tutorials/with-flutter)
 
-### Widgets
+#### Widgets
 * [void](https://medium.com/flutter-community/the-curious-case-of-void-in-dart-f0535705e529)
 * [Scaffold()](https://www.miquido.com/flutter-101/scaffold-in-flutter/#:~:text=In%20Flutter%2C%20Scaffold%20is%20a,and%20the%20main%20content%20area.)
 * [body](https://api.flutter.dev/flutter/material/Scaffold/body.html)
