@@ -73,8 +73,8 @@ class BookState extends State<Books> {
     //build a form widget using _formKey
           child: Form(
             key: _formKey,
-        // child: SizedBox(
-        // height: 500,
+        child: SizedBox(
+          height: 300,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
@@ -194,6 +194,7 @@ class BookState extends State<Books> {
           ],
         ),
       ),
+    ),
     ),
     );
 }
